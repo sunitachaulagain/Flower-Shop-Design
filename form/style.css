@@ -1,0 +1,52 @@
+.main{
+    height: 100%vh;
+    width: 100%;
+    
+}
+
+.col1{
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.col2{
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.state{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+.zip{
+    box-sizing: border-box;
+    width: 50%;
+    float: right;
+}
+
+.expire{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+}
+
+.cvv{
+    box-sizing: border-box;
+    width: 50%;
+    float: right;
+}
+
+.proceed{
+    
+    text-align: center;
+    align-items: center;
+    
+   
+}

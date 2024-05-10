@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Login Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        
+        <div class="col1">
+            <h3>Billing Address</h3>
+            <form action="">
+                <div class="name">
+                <label for="name"><i class="fas fa-user"></i> UserName </label><br>
+                <input type="text"><br><br>
+                </div>
+                
+                <div class="email">
+                <label for="email"><i class="fas fa-envelope"></i> Email</label><br>
+                <input type="text"><br><br>
+                </div>
+
+                <div class="address">
+                <label for="address"><i class="fas fa-address-card"></i> Address</label><br>
+                <input type="text" ><br><br>
+                </div>
+
+                <div class="card">
+                <label for="Card"> Your Credit Card Number</label><br>
+                <input type="number"><br><br>
+                </div>
+
+                <div class="city">
+                <label for="city"><i class="fas fa-city"></i> City</label><br>
+                <input type="text" ><br><br> 
+                </div>
+
+                <div class="stateZip">
+                    <div class="state">
+                        <label for="state"> State </label><br>
+                        <input type="text">
+
+                    </div>
+
+                    <div class="Zip">
+                        <label for="Zip"> Zip</label><br>
+                        <input type="number"><br><br>
+                    </div>
+
+                </div>
+
+                <input type="checkbox">
+                <label>Shipping Address Same as Billing</label><br><br>
+
+                </div>
+            </form>
+           
+
+        </div>
+        <div class="col2">
+            <h3>Payments</h3>
+            <label for="accepted payments">Accepted payments</label><br>
+            <i class='fa fa-cc-visa' style="font-size:30px;color:blue"></i>
+            <i class="fa-brands fa-cc-paypal"style="font-size:30px;color:blue;" ></i>
+            <i class="fa-brands fa-cc-mastercard"style="font-size:30px;color:blue;" ></i>
+           <br><br>
+
+
+           <label for="">Name on Card</label><br>
+           <input type="text" name="" id=""><br><br>
+
+
+           <label for="">Credit Card Number</label><br>
+           <input type="number" name="" id=""><br><br>
+
+
+           <label>Amount</label><br>
+           <input type="number" name="" id=""><br><br>
+
+
+           <label for="">Exp Date</label><br>
+           <input type="number" name="" id=""><br><br>
+
+           <div class="exp">
+            <div class="expire">
+                <label for="">Exp Year</label><br>
+                <input type="number" name="" id=""><br><br>
+            </div>
+
+            <div class="cvv">
+                <label for="">CVV</label><br>
+                <input type="number" name="" id=""><br><br>
+                
+            </div>
+           </div>
+
+        </div>
+        <br>
+
+        
+        
+    </div>
+    <div class="proceed">
+        <input type="submit" value="Proceed in Checkout">
+    </div>
+</body>
+</html>
